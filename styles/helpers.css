@@ -1,0 +1,21 @@
+/* HELPER STYLES */
+
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link :focus {
+    outline: none;
+}
+
+.anchor-link h1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c1";
+    font-weight: 900;
+}
